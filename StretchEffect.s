@@ -346,7 +346,7 @@ StretchIt:
         
 
         move.l   bitplane1,d3
-        move.l   #1536/(2*6)-1,d4  ; 128 * 12 words to be written into the copperlist
+        move.l   #1536/(2*6)-1,d4  ; 128 * 6 words to be written into the copperlist
         moveq    #0,d2
         move.w   #$0059,d2     ; the starting waitline in the copperlist 
         fmove.x  #0,fp3
